@@ -1,0 +1,71 @@
+.loadingContainer {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.failureImage {
+  width: 400px;
+}
+.failureHeading {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #1e293b;
+  line-height: 0.5;
+  @media screen and (min-width: 768px) {
+    font-size: 25px;
+  }
+}
+.failureText {
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+}
+.failureButton {
+  background-color: #4656a1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  width: 90px;
+  height: 35px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: Roboto;
+}
+.mainbgcontainer {
+  height: 100vh;
+  width: 100vw;
+}
+.courseHeading {
+  font-family: Roboto;
+  font-size: 20px;
+  @media screen and (min-width: 768px) {
+    font-size: 30px;
+  }
+}
+.coursesList {
+  padding: 0px;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+.homebody-container {
+  padding: 20px;
+  padding-bottom: 0px;
+  @media screen and (min-width: 768px) {
+    padding-left: 90px;
+  }
+}

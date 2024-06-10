@@ -1,0 +1,95 @@
+.courseDetailMaincontainer {
+  height: 100vh;
+  width: 100vw;
+}
+.loadingContainer {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+}
+.failureImage {
+  width: 400px;
+}
+.failureHeading {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #1e293b;
+  line-height: 0.5;
+  @media screen and (min-width: 768px) {
+    font-size: 25px;
+  }
+}
+.failureText {
+  font-family: Roboto;
+  font-size: 16px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+}
+.failureButton {
+  background-color: #4656a1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  width: 90px;
+  height: 35px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: Roboto;
+}
+.bodyContainer {
+  padding: 20px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 87vh;
+  @media screen and (min-width: 768px) {
+    padding-left: 90px;
+  }
+}
+.cardContainer {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+  border-radius: 10px;
+  width: 90%;
+}
+.cardImage {
+  height: 300px;
+  width: 335px;
+  @media screen and (min-width: 768px) {
+    height: 400px;
+    width: 450px;
+  }
+}
+.cardDetailsContainer {
+  background-color: #ffffff;
+  padding: 15px;
+}
+.courseName {
+  font-family: Roboto;
+  font-size: 20px;
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+  }
+}
+.courseDiscription {
+  font-family: Roboto;
+  font-size: 17px;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+}
